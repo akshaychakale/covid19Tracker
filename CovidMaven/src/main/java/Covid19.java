@@ -29,6 +29,10 @@ public class Covid19 {
 		System.out.println("Total Deaths : "+jsonobject.get("deaths"));
 		System.out.println("Today Deaths : "+jsonobject.get("todayDeaths"));
 
+                System.out.println("Active per Million : "+jsonobject.get("activePerOneMillion");
+                System.out.println("Recovered per Million : "+jsonobject.get("recoveredPerOneMillion");
+                 System.out.println("Critical per Million : "+jsonobject.get("criticalPerOneMillion");
+
 	}
 
 }
